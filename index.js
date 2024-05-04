@@ -13,7 +13,7 @@ app.listen (PORT,()=>{
 //End point 1
 app.get("/string", (request, response) =>{
     response.send("My name is Obisike Nwankwo and I am a Backend Dev")
-}) 
+});
 
 //End point 2
 app.get('/object', (request, response) => {
